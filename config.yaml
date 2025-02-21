@@ -1,0 +1,17 @@
+model_name: "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-unsloth-bnb-4bit"
+dataset_name: "LooksJuicy/ruozhiba"
+dataset_config_name: "default"
+dataset_split: "train"
+prompt_style: "指令: {}\n回答: {}"
+input_fields: ["instruction", "output"]
+max_seq_length: 2048
+lora_r: 16
+lora_alpha: 16
+lora_dropout: 0
+epochs: 1
+batch_size: 2
+learning_rate: 2e-4
+output_dir: "./finetuned_model"
+export_format: "gguf"
+quantization_method: "q4_k_m"
+hf_repo: "your_username/your_model"
