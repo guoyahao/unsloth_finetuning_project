@@ -5,7 +5,7 @@
 ## 安装
 1. 克隆项目：
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/guoyahao/unsloth_finetuning_project
    cd unsloth_finetuning_project
    conda activate unsloth_finetuning_project
    ```   
