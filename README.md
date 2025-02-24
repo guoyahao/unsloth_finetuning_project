@@ -8,7 +8,7 @@
    git clone https://github.com/guoyahao/unsloth_finetuning_project.git
    cd unsloth_finetuning_project
    conda activate unsloth_finetuning_project
-   ```   
+   ```
 
 
 2. 安装依赖：
@@ -16,6 +16,9 @@
     pip install -r requirements.txt
     ```
 ## 使用GUI
+
+![](./public/img/20250221183025.jpg)
+
 1. 运行 GUI：
     ```bash
     python gui.py
@@ -62,3 +65,6 @@
 - **Hugging Face Token**：需要在 Hugging Face 官网生成 Token 并在 GUI 中输入。
 - **数据集**：默认使用 IMDb 数据集，可替换为自定义数据集（需确保格式兼容）。
 - **资源需求**：微调和导出需要足够的 GPU 内存（建议至少 12GB）。
+
+### 欢迎加群讨论（加我企微拉你入群）
+![img.png](public/img/img.png)
