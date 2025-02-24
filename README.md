@@ -17,7 +17,7 @@
     ```
 ## 使用GUI
 
-![GUI界面](./public/img/20250221183025.jpg)
+![GUI界面](../../public/img/20250221183025.jpg)
 
 1. 运行 GUI：
     ```bash
