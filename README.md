@@ -67,4 +67,4 @@
 - **资源需求**：微调和导出需要足够的 GPU 内存（建议至少 12GB）。
 
 ### 欢迎加群讨论（加我企微拉你入群）
-![img.png](./public/img/img.png)
+![img.png](../../public/img/img.png)
